@@ -6,3 +6,9 @@ body {
   padding: 0;
   background-color: #ffe4c4;
 }
+
+.background {
+  
+  display: block;
+  height: 100vh;
+}

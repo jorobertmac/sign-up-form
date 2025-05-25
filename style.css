@@ -5,10 +5,13 @@ body {
   margin: 0;
   padding: 0;
   background-color: #ffe4c4;
+  display: flex;
 }
 
 .background {
-  
   display: block;
   height: 100vh;
+}
+.right {
+  margin: 5vw;
 }

@@ -17,22 +17,30 @@
     <p class="blurb">When the world crumbles, your survival shouldn't. Our fortified, self-sustaining Sheds are built to withstand any apocalypse—be it raiders, radiation, or ruin. Blend into the wasteland with rugged designs, harness off-grid power, and secure your future with unmatched durability.</p>
     <p class="tag">Don't just survive the end—thrive in it.</p>
     <form action="">
-      <p>Stand Unbreakable</p>
-      <label for="firstName">First Name</label>
-      <input type="text" name="firstName" id="firstName" placeholder="Jericho">
-      <label for="lastName">Last Name</label>
-      <input type="text" name="lastName" id="lastName" placeholder="Ashfall">
-      <label for="email">Email</label>
-      <input type="email" name="email" id="email" placeholder="jericho_fell@shacks.doom">
-      <label for="phone">Phone Number</label>
-      <input type="tel" name="phone" id="phone" placeholder="(555) 987-1234">
-      <label for="password">Password</label>
-      <input type="password" name="password" id="password">
-      <label for="confirm">Confirm Password</label>
-      <input type="password" name="confirm" id="confirm">
+      <fieldset>
+        <legend>Stand Unbreakable</legend>
+        <div>
+          <label for="firstName">First Name</label>
+          <input type="text" name="firstName" id="firstName" placeholder="Jericho" required>
+          <label for="lastName">Last Name</label>
+          <input type="text" name="lastName" id="lastName" placeholder="Ashfall" required>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" placeholder="jericho_fell@shacks.doom" required>
+          <label for="phone">Phone Number</label>
+          <input type="tel" name="phone" id="phone" placeholder="(555) 987-1234" required>
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input type="password" name="password" id="password" required>
+          <label for="confirm">Confirm Password</label>
+          <input type="password" name="confirm" id="confirm" required>
+        </div>
+      </fieldset>
       <button type="submit">Get A Quote</button>
     </form>
-    <p>Alread have an account? <a href="">Sign In</a></p>
+    <p class="login">Alread have an account? <a href="">Login</a></p>
   </div>
 </body>
 </html>
